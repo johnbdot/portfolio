@@ -7,7 +7,8 @@ body {
 }
 
 .intro-left {
-  background-color: #282a36;
+  background: url("img/bg.png");
+  background-repeat: repeat;
   position: fixed;
   left: 0;
   width: 33.3333%;
