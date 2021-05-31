@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
 * {
   vertical-align: baseline;
   font-weight: inherit;
@@ -13,6 +17,30 @@
 body {
   background-color: #282a36;
   color: #f8f8f2;
+  font-family: "Roboto Slab", serif;
+}
+
+.fas {
+  margin-top: 40px;
+  font-size: 3em;
+}
+
+.intro-name {
+  font-family: "Oswald", sans-serif;
+  font-size: 4em;
+  font-style: italic;
+}
+
+.gradient-text {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3em;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #ffb86c, #ff79c6);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .title {
@@ -22,6 +50,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.5em;
 }
 
 .container-intro-gradient {
@@ -53,6 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2em;
 }
 
 .content-about {
@@ -66,6 +97,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2em;
 }
 
 .content-projects {
@@ -79,6 +111,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2em;
 }
 
 .content-contact {
