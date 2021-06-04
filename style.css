@@ -21,12 +21,13 @@ body {
 }
 
 a {
+  color: #f8f8f2;
   text-decoration: none;
 }
 
 a:visited {
-  text-decoration: none;
   color: #f8f8f2;
+  text-decoration: none;
 }
 
 h1 {
