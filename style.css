@@ -109,7 +109,7 @@ h1 {
   width: 100vw;
   height: 100vh;
   background: url(img/intro.svg);
-  background-size: 60%;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: bottom;
   display: flex;
