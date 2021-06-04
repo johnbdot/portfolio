@@ -3,10 +3,10 @@ const cursorSpan = document.querySelector(".cursor");
 
 const textArray = [
   "junior sys admin",
-  "aspiring web developer",
+  "coding newbie",
   "tech enthusiast",
-  "passionate gamer",
   "sports fanatic",
+  "#pc master race",
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
