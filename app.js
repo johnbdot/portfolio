@@ -6,7 +6,6 @@ const textArray = [
   "coding newbie",
   "tech enthusiast",
   "sports fanatic",
-  "#pc master race",
 ];
 const typingDelay = 200;
 const erasingDelay = 100;
