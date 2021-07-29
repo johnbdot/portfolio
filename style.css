@@ -179,7 +179,15 @@ p {
   width: 50%;
 }
 
+/* iPad Pro */
 @media only screen and (max-width: 1024px) {
+  h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .container-intro-bg {
     width: 100vw;
     height: 100vh;
@@ -202,7 +210,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 3vw;
   }
 
   .title {
@@ -215,17 +222,23 @@ p {
   }
 }
 
+/* iPad */
 @media only screen and (max-width: 768px) {
   .container-intro-bg {
     background-size: 100%;
   }
-
-  .container-about {
-    font-size: 4vw;
-  }
 }
 
+/* iPhone */
 @media only screen and (max-width: 425px) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
   .container-intro-bg {
     background-size: 120%;
   }
